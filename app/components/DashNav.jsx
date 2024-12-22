@@ -17,10 +17,10 @@ const DashNav = () => {
   
       
     <div className="dropdown dropdown-end">
-      <div tabIndex={0} role="button" className="btn btn-ghost hover:bg-white">
+      < div tabIndex={0} role="button" className="btn btn-ghost hover:bg-white">
       <h1 className='text-sm font-bold mr-6 text-primary'>{getUser()}</h1>
       </div>
-      <ul
+      < ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
         
