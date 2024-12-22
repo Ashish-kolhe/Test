@@ -85,7 +85,7 @@ const DashHero = () => {
 
 
               <div className='flex justify-center mt-28 mb-6'>
-              <h1 className='font-black text-4xl text-center '>Quick Tips 🚀 <br /><span className='text-xl font-semibold'> <span className='text-primary'>{getUser()}</span> , these secret tips are just between us 🤫 </span></h1>
+              <h1 className='font-black text-4xl text-center '>Quick Tips 🚀 <br /><span className='text-xl font-semibold'> <span className='text-primary'>{/* getUser()*/}</span> , these secret tips are just between us 🤫 </span></h1>
             </div>
        
       
