@@ -10,7 +10,7 @@ const DashHero = () => {
         <div className="hero bg-white min-h-screen mb-8 text-md py-4 font-medium">
           <div className="hero-content text-center">
             <div className="max-w-2xl">
-              <h1 className="text-2xl font-bold">Welcome <span className='text-primary'>{getUser()}</span> </h1>
+              <h1 className="text-2xl font-bold">Welcome <span className='text-primary'>{/* getUser()*/}</span> </h1>
               <div className='flex justify-center my-6'>
                 <h1 className='font-black text-3xl text-center '>Intro Video 🎬 <br /><span className='text-sm font-medium'> "Start your journey here! Get an overview of what you’ll learn and why this course is perfect for you. 🚀" </span></h1>
               </div>
@@ -303,7 +303,7 @@ const DashHero = () => {
             </div>
 
             <div className='flex justify-center mb-14'>
-              <h1 className='font-black text-3xl text-center '><span className='text-primary'>{getUser()}</span> You Did It! 🎉<br /><span className='text-sm font-medium'> "<span className='text-primary font-bold'>Congratulations!</span> You’ve now built a complete website with <span className=' font-bold'>Next.js</span>, styled it with <span className=' font-bold'>DaisyUI</span>, used <span className=' font-bold'>ChatGPT</span> to assist your development process, and deployed it to <span className=' font-bold'>Netlify</span>. You're all set to start building amazing projects. Keep experimenting, and keep building! 💪👨‍💻👩‍💻" </span></h1>
+              <h1 className='font-black text-3xl text-center '><span className='text-primary'>{/* getUser()*/}</span> You Did It! 🎉<br /><span className='text-sm font-medium'> "<span className='text-primary font-bold'>Congratulations!</span> You’ve now built a complete website with <span className=' font-bold'>Next.js</span>, styled it with <span className=' font-bold'>DaisyUI</span>, used <span className=' font-bold'>ChatGPT</span> to assist your development process, and deployed it to <span className=' font-bold'>Netlify</span>. You're all set to start building amazing projects. Keep experimenting, and keep building! 💪👨‍💻👩‍💻" </span></h1>
             </div>
 
       

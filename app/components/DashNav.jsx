@@ -18,7 +18,7 @@ const DashNav = () => {
       
     <div className="dropdown dropdown-end">
       < div tabIndex={0} role="button" className="btn btn-ghost hover:bg-white">
-      <h1 className='text-sm font-bold mr-6 text-primary'>{getUser()}</h1>
+      <h1 className='text-sm font-bold mr-6 text-primary'>{/* getUser()*/}</h1>
       </div>
       < ul
         tabIndex={0}
