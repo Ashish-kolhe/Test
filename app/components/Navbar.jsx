@@ -4,7 +4,7 @@ import PaymentPage from './Payment'
 const Navbar = () => {
   return (
     <div>
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-white">
   <div className="navbar-start">
   
   <div className="flex items-center m-4">
