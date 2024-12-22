@@ -1,5 +1,5 @@
 
-import { signIn,signOut,auth } from "e:/Projects/coddeit/auth"
+import { signIn,signOut,auth } from "@/auth"
 // Function to set the user
 
 // Function to get the user
