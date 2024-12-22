@@ -9,7 +9,7 @@ const page = () => {
  
   return (
    
-    <div>
+    <div className='bg-white'>
         <DashNav/>
         <DashHero/>
         <Footer/>

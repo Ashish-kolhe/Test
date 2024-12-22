@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>
+    <div className='bg-white'>
         <div className="hero bg-white min-h-screen my-20">
   <div className="hero-content text-left">
     <div className="max-w-2xl">
