@@ -9,7 +9,7 @@ const Navbar = () => {
   
   <div className="flex items-center m-4">
   <img src="./FilledLogo.png" alt="Coddeit Logo" className="h-10 w-10 mr-2" />
-  <Link href="/" className="text-2xl font-black">
+  <Link href="/" className="text-xl font-black">
     Coddeit
   </Link>
 </div>

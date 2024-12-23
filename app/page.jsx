@@ -15,13 +15,17 @@ export default async function Home() {
       <Navbar />
 
       <div className="hero bg-white min-h-screen ">
+  
         <div className="hero-content text-center ">
-          <div className="max-w-2xl">
-         
-
-            <h1 className="text-5xl font-bold"><span className="text-green-600 font-black italic"> Learn <span className="text-black text-7xl not-italic">CODING</span> to Build,</span> <span className="text-red-600 font-black italic"> Not Just to Know.</span></h1>
+       
+          <div className=" max-w-2xl ">  
+          <img className="w-20" src="./arrow.png" alt="" />
+            <h1 className="flex justify-center">
+             <img className="w-52 " src="./web.gif"/>
+            </h1>
+            <h1 className="text-4xl font-black">Make Your First Website</h1>
             <p className="py-6">
-              Turn your ideas into reality. Create products, launch websites, and start earning—all without chasing certifications or job interviews
+             Create your first site from scratch with practical, hands-on steps—no course, just building.
             </p>
             <PaymentPage />
 
@@ -29,17 +33,17 @@ export default async function Home() {
               <div className="flex overflow-hidden  -space-x-4 rtl:space-x-reverse  p-4">
                 <div className="avatar  ">
                   <div className="w-10 rounded-full  border-white border-4">
-                    <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                    <img src="./Thor.jpg" />
                   </div>
                 </div>
                 <div className="avatar">
                   <div className="w-10 rounded-full  border-white border-4">
-                    <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                    <img src="./profile3.jfif" />
                   </div>
                 </div>
                 <div className="avatar">
                   <div className="w-10 rounded-full border-white border-4">
-                    <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                    <img src="./a.jpg" />
                   </div>
                 </div>
                 <div className="avatar placeholder" >
@@ -50,12 +54,12 @@ export default async function Home() {
               </div>
             </div>
             <p className="pt-2 pb-10 text-gray-700 italic">
-              <span className="text-black font-bold">72</span> Students Started Their Coding Journey!
+              <span className="text-black font-bold">72</span> Students Built Their First Website!
             </p>
             <div >
-              <kbd className="kbd mx-2 btn btn-outline btn-secondary">Coding</kbd>
+              <kbd className="kbd mx-2 btn btn-outline btn-secondary">Coddeit</kbd>
               +
-              <kbd className="kbd mx-2 btn btn-outline btn-secondary">Skills</kbd>
+              <kbd className="kbd mx-2 px-4 btn btn-outline btn-secondary"> You </kbd>
               =
               <kbd className="kbd mx-2 bg-green-600 font-bold text-white py-2">Success</kbd>
             </div>
@@ -63,48 +67,44 @@ export default async function Home() {
           </div>
         </div>
       </div>
-      
-      <div className=" hero min-h-lvh mb-10 -mt-4">
-        <div className="hero-content text-center">
-          <div className="max-w-2xl">
-            <h1 className="text-3xl font-bold">Story Of Every <span className="text-4xl font-black text-secondary"> Computer Engineer</span></h1>
-            <div className="mockup-code mb-6 mt-8 text-left">
-              <pre data-prefix="#"><code>4 Years&lt;At_College&gt;</code></pre>
-              <pre data-prefix=">>" className="text-warning"><code>College Degree <span className="text-green-500">✔</span></code></pre>
-              <pre data-prefix=">>" className="text-warning"><code>Skiils! <span className="text-red-500">✖</span></code></pre>
-              <pre data-prefix=">>" className="text-error"><code>Unempolyed &#128546;</code></pre>
-            </div>
-            <div className="chat chat-start mb-6 ">
-              <div className="chat-bubble bg-red-600 text-white font-semibold">
-                I have the degree, but I still don’t feel prepared.😞
-              </div>
-            </div>
-            <div className="chat chat-end mb-8">
-              <div className="chat-bubble bg-green-600 font-semibold text-white">You were prepared for exams, not the real world.🥱 </div>
-            </div>
-            <h1 className="text-2xl font-black mb-12 ">Don’t worry, I’ll take care of it. </h1>
-            <h1 className="text-5xl font-bold"><span className="font-black"><span className="text-red-600 italic text-7xl">Skip</span>  the <span className="text-red-600 text-7xl italic">Theory</span>  – Code to <span className="text-lime-300">Create</span>,<span className="text-lime-500">Build</span> , and <span className="text-lime-600">Succeed</span>.</span></h1>
-            <p className="py-6">
-              Skip the endless theory and dive straight into creating real-world projects. At Coddeit, we help you build, launch, and succeed with practical coding skills.
-            </p>
-            <PaymentPage />
-            <p className="text-secondary font-bold mt-14">Everything you Will learn!</p>
-            <div className="flex justify-center mt-8">
-   <img src="./Learn.jpg" alt="" />
+       
+       <div className="hero mt-20 text-center px-20 bg-white">
+      <div className="max-w-md ">
+      <div className="rating rating-sm mb-4 bg-white">
+  <input type="radio" name="rating-4" className="mask mask-star-2 bg-amber-500" />
+  <input type="radio" name="rating-4" className="mask mask-star-2 bg-amber-500"  />
+  <input type="radio" name="rating-4" className="mask mask-star-2 bg-amber-500" />
+  <input type="radio" name="rating-1" className="mask mask-star-2 bg-amber-500" />
+  <input type="radio" name="rating-1" className="mask mask-star-2 bg-amber-500" defaultChecked/>
 </div>
-          </div>
-        </div>
+<p className="text-xs font-bold text-slate-900 leading-6 ">"I never thought I could build a website, but once I took the leap with Coddeit, it all started to make sense. <span className="bg-pink-100"> Now I have my own site up and running, and it feels amazing!</span>"</p>
+      <div className="flex justify-center mt-6">
+      <div className="avatar">
+  <div className="w-12 rounded-full">
+    <img src="./kid.jpg" />
+  </div>
+</div>
+<p className="text-sm font-bold text-slate-900 ml-4">Jhon Doe <br /> <span className="text-xs font-light">Built, <span className="text-blue-500 underline underline-offset-1"><a href="https://textintospeech.netlify.app/">textintospeech</a></span> </span></p>
       </div>
-      <div className="hero min-h-screen mb-20">
+      </div>
+      </div>
+      
+      <div className="hero min-h-screen mt-20 mb-20">
         <div className="hero-content text-center">
           <div className="max-w-2xl">
-            <h1 className="text-3xl font-black mb-8 mt-20 text-black ">Learn Coding The <span className="text-secondary text-4xl">Right Way!</span> </h1>
-            <div className="flex content-center justify-center">
+        
+          <h1 className="flex justify-center">
+            <img className="w-52 mb-4" src="./sleep.gif" alt="" />
+            </h1>
+            <h1 className="text-3xl font-bold mb-12 ">Bored of Tutorials? <span className="text-4xl font-black text-secondary"> Time to Build!</span>
+            </h1>
+            
+            <div className="flex content-center justify-center ">
 
+           
 
-
-              <div className="card bg-white rounded-box  h-3/5   text-neutral-700 p-10 text-left shadow-2xl shadow-indigo-700">
-                <h1 className="text-lg font-semibold text-gray-700">Flat <span className="text-green-500">₹550</span> 🤑 off for First 99 Students <span className="text-red-500 italic">27 remaning!</span></h1>
+              <div className="card bg-white rounded-box  h-3/5   text-neutral-700 p-10 text-left border-pink-500 border-2 ">
+               
                 <h1 className="text-7xl font-black mb-6 text-secondary"><span className="text-lg text-red-500 line-through">₹599</span><span className="text-green-500">₹49</span><span className="text-lg text-secondary">/Lifetime</span></h1>
                 <p className="font-bold"><span className="text-green-500">✔ </span>Full course access. 📚</p>
 
@@ -127,7 +127,7 @@ export default async function Home() {
            
             <div className="hero bg-white min-h-screen -mb-32">
            
-  <div className="hero-content flex-col lg:flex-row-reverse">
+  <div className="hero-content flex-col lg:flex-row-reverse ">
   <p className="font-bold text-black">Hey It's <span className="text-amber-500 font-black">Ashish</span>,</p>
     <img
       src="./Ashish.png"
@@ -157,14 +157,14 @@ export default async function Home() {
               </div>
               <div className="collapse collapse-arrow bg-white">
                 <input type="radio" name="my-accordion-2" />
-                <div className="collapse-title text-xl font-bold">Who is this course for?</div>
+                <div className="collapse-title text-xl font-bold">Who is this for?</div>
                 <div className="collapse-content">
-                  <p>This course is perfect for entrepreneurs, creators, or anyone who wants to learn coding quickly and effectively without focusing on certifications. If you're looking to build, create, and launch, this is for you.</p>
+                  <p>This is perfect for entrepreneurs, creators, or anyone who wants to learn coding quickly and effectively without focusing on certifications. If you're looking to build, create, and launch, this is for you.</p>
                 </div>
               </div>
               <div className="collapse collapse-arrow bg-white">
                 <input type="radio" name="my-accordion-2" />
-                <div className="collapse-title text-xl font-bold"> What if I get stuck during the course?</div>
+                <div className="collapse-title text-xl font-bold">What if I get stuck along the way?</div>
                 <div className="collapse-content">
                   <p>Don’t worry! We offer support via dedicated forums, chat groups, and resources to help you overcome any hurdles. You’re never alone on this journey.</p>
                 </div>
@@ -177,6 +177,26 @@ export default async function Home() {
                 </div>
               </div>
             </div>
+            <div className="hero mt-20 text-center px-20 bg-white">
+      <div className="max-w-md ">
+      <div className="rating rating-sm mb-4 bg-white">
+  <input type="radio" name="rating-4" className="mask mask-star-2 bg-amber-500" />
+  <input type="radio" name="rating-4" className="mask mask-star-2 bg-amber-500"  />
+  <input type="radio" name="rating-4" className="mask mask-star-2 bg-amber-500" />
+  <input type="radio" name="rating-1" className="mask mask-star-2 bg-amber-500" />
+  <input type="radio" name="rating-1" className="mask mask-star-2 bg-amber-500" defaultChecked/>
+</div>
+<p className="text-xs font-bold text-slate-900 leading-6 ">"<span className="bg-pink-100">I spent months stuck in endless tutorials and still couldn’t build a single website.</span> Then I found Coddeit. It just clicked—I finally built my first site, and seeing it live online feels unreal!"</p>
+      <div className="flex justify-center mt-6">
+      <div className="avatar">
+  <div className="w-12 rounded-full">
+    <img src="./test.jpg" />
+  </div>
+</div>
+<p className="text-sm font-bold text-slate-900 ml-4">Jhon Doe <br /> <span className="text-xs font-light">Built, <span className="text-blue-500 underline underline-offset-1"><a href="https://gamestoreforfun.netlify.app/">gamestoreforfun</a></span> </span></p>
+      </div>
+      </div>
+      </div>
           </div>
         </div>
 
