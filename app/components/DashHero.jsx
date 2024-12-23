@@ -93,7 +93,7 @@ const DashHero = () => {
 
 
             <div className='flex justify-center'>
-              <img className='rounded-2xl' src="./codepen.jpg" alt="" />
+              <img className='rounded-2xl' src="./codepen.JPG" alt="" />
             </div>
             <div className='flex justify-center mt-8'>
               <h1 className="text-4xl font-black">🌐 Use <span className='underline-offset-2 underline text-secondary'> <Link href="https://codepen.io">CodePen:</Link> </span> </h1>
@@ -107,7 +107,7 @@ const DashHero = () => {
 
 
             <div className='flex justify-center'>
-              <img className='rounded-2xl' src="./daisy.jpg" alt="" />
+              <img className='rounded-2xl' src="./daisy.JPG" alt="" />
             </div>
             <div className='flex justify-center mt-8'>
               <h1 className="text-4xl font-black">🎨 Try <span className='underline-offset-2 underline text-secondary'><Link href="https://daisyui.com">DaisyUI:</Link></span></h1>
@@ -314,7 +314,7 @@ const DashHero = () => {
             <div className='flex justify-center mt-28 mb-6'>
               <h1 className='font-black text-3xl text-center '>Project Templates 🚀<br /><span className='text-sm font-medium'> "Get started quickly with our pre-built templates. Customize and build your next project with ease! 💡" <br /><a className='text-blue-600 font-bold underline' href="https://coddeit-template.netlify.app/"> Click Here</a> For Preview </span></h1>
             </div>
-
+{/*
             <div className='flex justify-center'>
               <div className="diff aspect-[16/9] rounded-3xl">
                 <div className="diff-item-1">
@@ -347,7 +347,7 @@ const DashHero = () => {
               </div>
             </div>
             <button className='btn btn-secondary   btn-outline mt-10 mb-20'>Download</button>
-
+*/}
 
 
 

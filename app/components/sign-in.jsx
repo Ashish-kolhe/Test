@@ -20,7 +20,7 @@ export default async function SignIn() {
       <p className="py-6 font-medium">
       <span className="text-red-500"> Don't Close</span> the app or<span className="text-red-500"> Refresh</span> The page, Sometimes Server Action Takes time...
       </p>
-      <button className="btn btn-secondary" type="submit">Sign Up</button>
+      <button className="btn btn-secondary text-white" type="submit">Sign Up</button>
     </div>
   </div>
 </div>
