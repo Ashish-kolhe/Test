@@ -10,7 +10,7 @@ const DashHero = () => {
       <div className="hero bg-white min-h-screen mb-8 text-md py-4 font-medium">
         <div className="hero-content text-center">
           <div className="max-w-2xl">
-            <h1 className="text-2xl font-bold">Welcome <span className='text-primary'>{getUser()}</span> </h1>
+            <h1 className="text-2xl font-bold">Welcome <span className='text-secondary'>{getUser()}</span> </h1>
             <div className='flex justify-center my-6'>
               <h1 className='font-black text-3xl text-center '>Intro Video 🎬 <br /><span className='text-sm font-medium'> "Start your journey here! Get an overview of what you’ll learn and why this course is perfect for you. 🚀" </span></h1>
             </div>
@@ -19,8 +19,8 @@ const DashHero = () => {
              <div className="video-container">
                 <iframe
                   className="rounded-3xl shadow-xl shadow-cyan-100"
-                  width="368"
-                  height="207"
+                  width="352"
+                  height="198"
                   src="https://www.youtube.com/embed/lzkB1NRlDvU?si=bvQqHxBrnsDpLKUX"
                   title="YouTube Video"
                   frameBorder="0"
@@ -32,7 +32,7 @@ const DashHero = () => {
             </div>
             <div className='text-left'>
               <p className="py-6 text-xl font-extrabold">
-                <span className='text-primary'>Overview:</span> What You’ll Learn 📘
+                <span className='text-secondary'>Overview:</span> What You’ll Learn 📘
               </p>
               <ul>
                 <li>&bull; <span className='font-semibold '>Set Up Your Environment:</span> Install Node.js to enable npm commands.</li>
@@ -41,7 +41,7 @@ const DashHero = () => {
               </ul>
 
               <h1 className='text-2xl font-bold mt-20 mb-2'>
-                <span className='text-primary'>Step 1:</span>  Setting Up Node.js
+                <span className='text-secondary'>Step 1:</span>  Setting Up Node.js
               </h1>
               <p> <span className='font-bold'>Why?</span> 🤔 Node.js provides the runtime for JavaScript and includes npm for managing packages 🛠️.</p>
               <ul className="my-2">
@@ -53,7 +53,7 @@ const DashHero = () => {
                 <pre data-prefix="1"><code>npm -v</code></pre>
               </div>
               <h1 className='text-2xl font-bold mt-20 mb-2'>
-                <span className='text-primary'>Step 2:</span>  Installing VS Code
+                <span className='text-secondary'>Step 2:</span>  Installing VS Code
               </h1>
               <p> <span className='font-bold'>Why?</span> 🤔 VS Code is a lightweight ⚡ and powerful 💪 code editor with excellent Next.js support 🚀.</p>
               <ul className="my-2">
@@ -68,7 +68,7 @@ const DashHero = () => {
 
               </ul>
               <h1 className='text-2xl font-bold mt-20 mb-2'>
-                <span className='text-primary'>Step 3:</span>  Creating Your First Next.js App
+                <span className='text-secondary'>Step 3:</span>  Creating Your First Next.js App
               </h1>
               <p> <span className='font-bold'>Why?</span> 🤔 Next.js simplifies React development ⚛️ and makes building modern web apps easier 🔧.</p>
               <ul className="my-2">
@@ -85,7 +85,7 @@ const DashHero = () => {
 
 
             <div className='flex justify-center mt-28 mb-6'>
-              <h1 className='font-black text-4xl text-center '>Quick Tips 🚀 <br /><span className='text-xl font-semibold'> <span className='text-primary'>{ getUser()}</span> , these secret tips are just between us 🤫 </span></h1>
+              <h1 className='font-black text-4xl text-center '>Quick Tips 🚀 <br /><span className='text-xl font-semibold'> <span className='text-secondary'>{ getUser()}</span> , these secret tips are just between us 🤫 </span></h1>
             </div>
 
 
@@ -96,7 +96,7 @@ const DashHero = () => {
               <img className='rounded-2xl' src="./codepen.jpg" alt="" />
             </div>
             <div className='flex justify-center mt-8'>
-              <h1 className="text-4xl font-black">🌐 Use <span className='underline-offset-2 underline text-primary'> <Link href="https://codepen.io">CodePen:</Link> </span> </h1>
+              <h1 className="text-4xl font-black">🌐 Use <span className='underline-offset-2 underline text-secondary'> <Link href="https://codepen.io">CodePen:</Link> </span> </h1>
             </div>
             <p className="py-6 mb-20">
               Preview your HTML, CSS, and JavaScript in real-time ⚡ without setting up a local environment. Perfect for quick experiments!
@@ -110,7 +110,7 @@ const DashHero = () => {
               <img className='rounded-2xl' src="./daisy.jpg" alt="" />
             </div>
             <div className='flex justify-center mt-8'>
-              <h1 className="text-4xl font-black">🎨 Try <span className='underline-offset-2 underline text-primary'><Link href="https://daisyui.com">DaisyUI:</Link></span></h1>
+              <h1 className="text-4xl font-black">🎨 Try <span className='underline-offset-2 underline text-secondary'><Link href="https://daisyui.com">DaisyUI:</Link></span></h1>
             </div>
             <p className="py-6 mb-20">
               Make your projects beautiful 🎉 with pre-made, responsive components for Tailwind CSS.
@@ -123,7 +123,7 @@ const DashHero = () => {
               <img className='rounded-2xl' src="./chatgpt.gif" alt="" />
             </div>
             <div className='flex justify-center mt-8'>
-              <h1 className="text-4xl font-black">🤖 Use <span className='underline-offset-2 underline text-primary'><Link href="https://chatgpt.com">ChatGPT:</Link></span></h1>
+              <h1 className="text-4xl font-black">🤖 Use <span className='underline-offset-2 underline text-secondary'><Link href="https://chatgpt.com">ChatGPT:</Link></span></h1>
             </div>
             <p className="py-6 mb-20">
               Get instant help 💡 on repetitive tasks or brainstorming ideas to save time.
@@ -139,8 +139,8 @@ const DashHero = () => {
               <div className="video-container">
                 <iframe
                   className="rounded-3xl shadow-xl shadow-cyan-100"
-                  width="368"
-                  height="207"
+                  width="352"
+                  height="198"
                   src="https://www.youtube.com/embed/r6nYP1s6CHE?si=stfzmamsGNNhuFlm"
                   title="YouTube Video"
                   frameBorder="0"
@@ -158,8 +158,8 @@ const DashHero = () => {
               <div className="video-container">
                 <iframe
                   className="rounded-3xl shadow-xl shadow-cyan-100"
-                  width="368"
-                  height="207"
+                  width="352"
+                  height="198"
                   src="https://www.youtube.com/embed/lzkB1NRlDvU?si=bvQqHxBrnsDpLKUX"
                   title="YouTube Video"
                   frameBorder="0"
@@ -177,8 +177,8 @@ const DashHero = () => {
               <div className="video-container">
                 <iframe
                   className="rounded-3xl shadow-xl shadow-cyan-100"
-                  width="368"
-                  height="207"
+                  width="352"
+                  height="198"
                   src="https://www.youtube.com/embed/lzkB1NRlDvU?si=bvQqHxBrnsDpLKUX"
                   title="YouTube Video"
                   frameBorder="0"
@@ -196,8 +196,8 @@ const DashHero = () => {
               <div className="video-container">
                 <iframe
                   className="rounded-3xl shadow-xl shadow-cyan-100"
-                  width="368"
-                  height="207"
+                  width="352"
+                  height="198"
                   src="https://www.youtube.com/embed/lzkB1NRlDvU?si=bvQqHxBrnsDpLKUX"
                   title="YouTube Video"
                   frameBorder="0"
@@ -215,8 +215,8 @@ const DashHero = () => {
               <div className="video-container">
                 <iframe
                   className="rounded-3xl shadow-xl shadow-cyan-100"
-                  width="368"
-                  height="207"
+                  width="352"
+                  height="198"
                   src="https://www.youtube.com/embed/sGD2WQytWY8?si=b2l9C6TsZ4Pka0qg"
                   title="YouTube Video"
                   frameBorder="0"
@@ -234,8 +234,8 @@ const DashHero = () => {
               <div className="video-container">
                 <iframe
                   className="rounded-3xl shadow-xl shadow-cyan-100"
-                  width="368"
-                  height="207"
+                  width="352"
+                  height="198"
                   src="https://www.youtube.com/embed/EjBz-5FVB4Y?si=Ux2efMucn6TXMkTF"
                   title="YouTube Video"
                   frameBorder="0"
@@ -253,8 +253,8 @@ const DashHero = () => {
               <div className="video-container">
                 <iframe
                   className="rounded-3xl shadow-xl shadow-cyan-100"
-                  width="368"
-                  height="207"
+                  width="352"
+                  height="198"
                   src="https://www.youtube.com/embed/1SHewsWhlb0?si=PNGCVwk0FTKo6ArM"
                   title="YouTube Video"
                   frameBorder="0"
@@ -272,8 +272,8 @@ const DashHero = () => {
               <div className="video-container">
                 <iframe
                   className="rounded-3xl shadow-xl shadow-cyan-100"
-                  width="368"
-                  height="207"
+                  width="352"
+                  height="198"
                   src="https://www.youtube.com/embed/dU7qfvWn7cE?si=ON83I-QwJQRKZ45e"
                   title="YouTube Video"
                   frameBorder="0"
@@ -291,8 +291,8 @@ const DashHero = () => {
               <div className="video-container">
                 <iframe
                   className="rounded-3xl shadow-xl shadow-cyan-100"
-                  width="368"
-                  height="207"
+                  width="352"
+                  height="198"
                   src="https://www.youtube.com/embed/VxlR-a0PG2Q?si=_g50wpEFtFkqb3kS"
                   title="YouTube Video"
                   frameBorder="0"
@@ -303,7 +303,7 @@ const DashHero = () => {
             </div>
 
             <div className='flex justify-center mb-14'>
-              <h1 className='font-black text-3xl text-center '><span className='text-primary'>{ getUser()}</span> You Did It! 🎉<br /><span className='text-sm font-medium'> "<span className='text-primary font-bold'>Congratulations!</span> You’ve now built a complete website with <span className=' font-bold'>Next.js</span>, styled it with <span className=' font-bold'>DaisyUI</span>, used <span className=' font-bold'>ChatGPT</span> to assist your development process, and deployed it to <span className=' font-bold'>Netlify</span>. You're all set to start building amazing projects. Keep experimenting, and keep building! 💪👨‍💻👩‍💻" </span></h1>
+              <h1 className='font-black text-3xl text-center '><span className='text-secondary'>{ getUser()}</span> You Did It! 🎉<br /><span className='text-sm font-medium'> "<span className='font-bold'>Congratulations!</span> You’ve now built a complete website with <span className=' font-bold'>Next.js</span>, styled it with <span className=' font-bold'>DaisyUI</span>, used <span className=' font-bold'>ChatGPT</span> to assist your development process, and deployed it to <span className=' font-bold'>Netlify</span>. You're all set to start building amazing projects. Keep experimenting, and keep building! 💪👨‍💻👩‍💻" </span></h1>
             </div>
            
 
@@ -318,7 +318,7 @@ const DashHero = () => {
             <div className='flex justify-center'>
               <div className="diff aspect-[16/9] rounded-3xl">
                 <div className="diff-item-1">
-                  <div className="bg-primary text-white grid place-content-center text-5xl font-black">
+                  <div className="bg-secondary text-white grid place-content-center text-5xl font-black">
                     PORTFOLIO<br /><span className='text-xl'>Template</span>
                   </div>
                 </div>
@@ -331,12 +331,12 @@ const DashHero = () => {
               </div>
             </div>
 
-            <button className='btn btn-primary btn-outline mt-10 mb-20' >Download</button>
+            <button className='btn btn-secondary btn-outline mt-10 mb-20' >Download</button>
 
             <div className='flex justify-center'>
               <div className="diff aspect-[16/9] rounded-3xl">
                 <div className="diff-item-1">
-                  <div className="bg-primary text-white grid place-content-center text-5xl font-black">
+                  <div className="bg-secondary text-white grid place-content-center text-5xl font-black">
                     LOGIN<br /><span className='text-xl'>Template</span>
                   </div>
                 </div>
@@ -346,7 +346,7 @@ const DashHero = () => {
                 <div className="diff-resizer"></div>
               </div>
             </div>
-            <button className='btn btn-primary btn-outline mt-10 mb-20'>Download</button>
+            <button className='btn btn-secondary   btn-outline mt-10 mb-20'>Download</button>
 
 
 

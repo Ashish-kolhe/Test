@@ -43,7 +43,7 @@ export default async function Home() {
                   </div>
                 </div>
                 <div className="avatar placeholder" >
-                  <div className="bg-primary text-white w-12 rounded-full border-white border-4">
+                  <div className="bg-secondary text-white w-12 rounded-full border-white border-4">
                     <span className="font-bold">+69</span>
                   </div>
                 </div>
@@ -53,9 +53,9 @@ export default async function Home() {
               <span className="text-black font-bold">72</span> Students Started Their Coding Journey!
             </p>
             <div >
-              <kbd className="kbd mx-2 btn btn-outline btn-primary">Coding</kbd>
+              <kbd className="kbd mx-2 btn btn-outline btn-secondary">Coding</kbd>
               +
-              <kbd className="kbd mx-2 btn btn-outline btn-primary">Skills</kbd>
+              <kbd className="kbd mx-2 btn btn-outline btn-secondary">Skills</kbd>
               =
               <kbd className="kbd mx-2 bg-green-600 font-bold text-white py-2">Success</kbd>
             </div>
@@ -67,7 +67,7 @@ export default async function Home() {
       <div className=" hero min-h-lvh mb-10 -mt-4">
         <div className="hero-content text-center">
           <div className="max-w-2xl">
-            <h1 className="text-3xl font-bold">Story Of Every <span className="text-4xl font-black text-primary"> Computer Engineer</span></h1>
+            <h1 className="text-3xl font-bold">Story Of Every <span className="text-4xl font-black text-secondary"> Computer Engineer</span></h1>
             <div className="mockup-code mb-6 mt-8 text-left">
               <pre data-prefix="#"><code>4 Years&lt;At_College&gt;</code></pre>
               <pre data-prefix=">>" className="text-warning"><code>College Degree <span className="text-green-500">✔</span></code></pre>
@@ -98,20 +98,20 @@ export default async function Home() {
       <div className="hero min-h-screen mb-20">
         <div className="hero-content text-center">
           <div className="max-w-2xl">
-            <h1 className="text-3xl font-black mb-8 mt-20 text-black ">Learn Coding The <span className="text-primary text-4xl">Right Way!</span> </h1>
+            <h1 className="text-3xl font-black mb-8 mt-20 text-black ">Learn Coding The <span className="text-secondary text-4xl">Right Way!</span> </h1>
             <div className="flex content-center justify-center">
 
 
 
               <div className="card bg-white rounded-box  h-3/5   text-neutral-700 p-10 text-left shadow-2xl shadow-indigo-700">
                 <h1 className="text-lg font-semibold text-gray-700">Flat <span className="text-green-500">₹533</span> 🤑 off for First 99 Students <span className="text-red-500 italic">27 remaning!</span></h1>
-                <h1 className="text-7xl font-black mb-6 text-primary"><span className="text-lg text-red-500 line-through">₹599</span>₹66<span className="text-lg">/Lifetime</span></h1>
-                <p className="font-bold"><span className="text-primary">✔ </span>Full course access. 📚</p>
+                <h1 className="text-7xl font-black mb-6 text-secondary"><span className="text-lg text-red-500 line-through">₹599</span>₹66<span className="text-lg">/Lifetime</span></h1>
+                <p className="font-bold"><span className="text-secondary">✔ </span>Full course access. 📚</p>
 
-                <p className="font-bold"><span className="text-primary">✔ </span>Project tutorials. 🛠️</p>
-                <p className="font-bold"><span className="text-primary">✔ </span>Lifetime access. 🔒</p>
-                <p className="font-bold"><span className="text-primary">✔ </span>Beginner-friendly tips. 🌟</p>
-                <p className="font-bold"><span className="text-primary ">✔ </span>Prebuilt templates included. 🖼️</p>
+                <p className="font-bold"><span className="text-secondary">✔ </span>Project tutorials. 🛠️</p>
+                <p className="font-bold"><span className="text-secondary">✔ </span>Lifetime access. 🔒</p>
+                <p className="font-bold"><span className="text-secondary">✔ </span>Beginner-friendly tips. 🌟</p>
+                <p className="font-bold"><span className="text-secondary ">✔ </span>Prebuilt templates included. 🖼️</p>
                
                 <div className="flex justify-center mt-6">
                   <PaymentPage />
@@ -133,7 +133,7 @@ export default async function Home() {
       src="./Ashish.png"
       className="max-w-56 " />
     <div>
-      <h1 className="text-5xl font-black"><span className="text-black"><span className="text-primary">"</span>  <span className="text-red-600 italic">Break</span> the <span className="text-amber-500 italic underline-offset-1">Learning</span> Barrier <span className="text-primary">"</span></span></h1>
+      <h1 className="text-5xl font-black"><span className="text-black"><span className="text-secondary">"</span>  <span className="text-red-600 italic">Break</span> the <span className="text-amber-500 italic underline-offset-1">Learning</span> Barrier <span className="text-secondary">"</span></span></h1>
       <p className="py-6 font-medium">
       "I spent <span className="text-red-500 italic">years</span> learning coding from books and tutorials but never built anything real. Then I realized—only <span className="text-red-500 italic">20% </span> of what I learned was needed to start earning through coding. Now, I focus on building and creating, and I want to help you do the same."
       </p>

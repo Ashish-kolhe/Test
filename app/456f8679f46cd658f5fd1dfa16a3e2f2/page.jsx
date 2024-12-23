@@ -5,7 +5,7 @@ const page = () => {
 
   return (
     <div>
-        <div className="hero bg-base-200 min-h-screen">
+        <div className="hero bg-white min-h-screen">
   <div className="hero-content text-center">
     <div className="max-w-md">
 

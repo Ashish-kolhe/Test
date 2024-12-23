@@ -3,7 +3,7 @@ import React from 'react'
 const page = () => {
   return (
     <div className='bg-white'>
-        <div className="hero bg-white min-h-screen my-20">
+        <div className="hero bg-white min-h-screen py-20">
   <div className="hero-content text-left">
     <div className="max-w-2xl">
     <a href="/"><h1 className='text-4xl font-balck mb-9'>←</h1></a>
