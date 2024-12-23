@@ -8,8 +8,8 @@ import { Sign } from "crypto";
 import Footer from "./components/Footer";
 export default async function Home() {
  
-  {/*const session = await auth();
-  if (session) return redirect('/dashboard')*/}
+  const session = await auth();
+  if (session) return redirect('/dashboard')
   return (
     <>
       <Navbar />
