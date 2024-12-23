@@ -88,7 +88,7 @@ export default async function Home() {
               Skip the endless theory and dive straight into creating real-world projects. At Coddeit, we help you build, launch, and succeed with practical coding skills.
             </p>
             <PaymentPage />
-            <p className="text-primary font-bold mt-14">Everything you Will learn!</p>
+            <p className="text-secondary font-bold mt-14">Everything you Will learn!</p>
             <div className="flex justify-center mt-8">
    <img src="./Learn.jpg" alt="" />
 </div>
@@ -104,14 +104,14 @@ export default async function Home() {
 
 
               <div className="card bg-white rounded-box  h-3/5   text-neutral-700 p-10 text-left shadow-2xl shadow-indigo-700">
-                <h1 className="text-lg font-semibold text-gray-700">Flat <span className="text-green-500">₹533</span> 🤑 off for First 99 Students <span className="text-red-500 italic">27 remaning!</span></h1>
-                <h1 className="text-7xl font-black mb-6 text-secondary"><span className="text-lg text-red-500 line-through">₹599</span>₹66<span className="text-lg">/Lifetime</span></h1>
-                <p className="font-bold"><span className="text-secondary">✔ </span>Full course access. 📚</p>
+                <h1 className="text-lg font-semibold text-gray-700">Flat <span className="text-green-500">₹550</span> 🤑 off for First 99 Students <span className="text-red-500 italic">27 remaning!</span></h1>
+                <h1 className="text-7xl font-black mb-6 text-secondary"><span className="text-lg text-red-500 line-through">₹599</span><span className="text-green-500">₹49</span><span className="text-lg text-secondary">/Lifetime</span></h1>
+                <p className="font-bold"><span className="text-green-500">✔ </span>Full course access. 📚</p>
 
-                <p className="font-bold"><span className="text-secondary">✔ </span>Project tutorials. 🛠️</p>
-                <p className="font-bold"><span className="text-secondary">✔ </span>Lifetime access. 🔒</p>
-                <p className="font-bold"><span className="text-secondary">✔ </span>Beginner-friendly tips. 🌟</p>
-                <p className="font-bold"><span className="text-secondary ">✔ </span>Prebuilt templates included. 🖼️</p>
+                <p className="font-bold"><span className="text-green-500">✔ </span>Project tutorials. 🛠️</p>
+                <p className="font-bold"><span className="text-green-500">✔ </span>Lifetime access. 🔒</p>
+                <p className="font-bold"><span className="text-green-500">✔ </span>Beginner-friendly tips. 🌟</p>
+                <p className="font-bold"><span className="text-green-500">✔ </span>Prebuilt templates included. 🖼️</p>
                
                 <div className="flex justify-center mt-6">
                   <PaymentPage />

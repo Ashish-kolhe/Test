@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Footer from './Footer'
 const DashHero = () => {
   return (
-    <div>
+    <div className='bg-white'>
 
       <div className="hero bg-white min-h-screen mb-8 text-md py-4 font-medium">
         <div className="hero-content text-center">
@@ -18,10 +18,10 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
              <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-cyan-100"
+                  className="rounded-3xl shadow-xl shadow-pink-200"
                   width="352"
                   height="198"
-                  src="https://www.youtube.com/embed/lzkB1NRlDvU?si=bvQqHxBrnsDpLKUX"
+                  src="https://www.youtube.com/embed/z7AUxPVFf_M?si=yrFXj_Q5nKhlY-C5"
                   title="YouTube Video"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -138,7 +138,7 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
               <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-cyan-100"
+                  className="rounded-3xl shadow-xl shadow-pink-200"
                   width="352"
                   height="198"
                   src="https://www.youtube.com/embed/r6nYP1s6CHE?si=stfzmamsGNNhuFlm"
@@ -157,10 +157,10 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
               <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-cyan-100"
+                  className="rounded-3xl shadow-xl shadow-pink-200"
                   width="352"
                   height="198"
-                  src="https://www.youtube.com/embed/lzkB1NRlDvU?si=bvQqHxBrnsDpLKUX"
+                  src="https://www.youtube.com/embed/-HBN30MQr7g?si=MZjLHQBuDqTMwAnX"
                   title="YouTube Video"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -176,7 +176,7 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
               <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-cyan-100"
+                  className="rounded-3xl shadow-xl shadow-pink-200"
                   width="352"
                   height="198"
                   src="https://www.youtube.com/embed/lzkB1NRlDvU?si=bvQqHxBrnsDpLKUX"
@@ -195,10 +195,10 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
               <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-cyan-100"
+                  className="rounded-3xl shadow-xl shadow-pink-200"
                   width="352"
                   height="198"
-                  src="https://www.youtube.com/embed/lzkB1NRlDvU?si=bvQqHxBrnsDpLKUX"
+                  src="https://www.youtube.com/embed/QCATU09WChU?si=HtnSq8MPNig_Q_9G"
                   title="YouTube Video"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -214,7 +214,7 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
               <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-cyan-100"
+                  className="rounded-3xl shadow-xl shadow-pink-200"
                   width="352"
                   height="198"
                   src="https://www.youtube.com/embed/sGD2WQytWY8?si=b2l9C6TsZ4Pka0qg"
@@ -233,7 +233,7 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
               <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-cyan-100"
+                  className="rounded-3xl shadow-xl shadow-pink-200"
                   width="352"
                   height="198"
                   src="https://www.youtube.com/embed/EjBz-5FVB4Y?si=Ux2efMucn6TXMkTF"
@@ -252,7 +252,7 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
               <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-cyan-100"
+                  className="rounded-3xl shadow-xl shadow-pink-200"
                   width="352"
                   height="198"
                   src="https://www.youtube.com/embed/1SHewsWhlb0?si=PNGCVwk0FTKo6ArM"
@@ -271,7 +271,7 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
               <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-cyan-100"
+                  className="rounded-3xl shadow-xl shadow-pink-200"
                   width="352"
                   height="198"
                   src="https://www.youtube.com/embed/dU7qfvWn7cE?si=ON83I-QwJQRKZ45e"
@@ -290,7 +290,7 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
               <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-cyan-100"
+                  className="rounded-3xl shadow-xl shadow-pink-200"
                   width="352"
                   height="198"
                   src="https://www.youtube.com/embed/VxlR-a0PG2Q?si=_g50wpEFtFkqb3kS"
@@ -314,7 +314,7 @@ const DashHero = () => {
             <div className='flex justify-center mt-28 mb-6'>
               <h1 className='font-black text-3xl text-center '>Project Templates 🚀<br /><span className='text-sm font-medium'> "Get started quickly with our pre-built templates. Customize and build your next project with ease! 💡" <br /><a className='text-blue-600 font-bold underline' href="https://coddeit-template.netlify.app/"> Click Here</a> For Preview </span></h1>
             </div>
-{/*
+
             <div className='flex justify-center'>
               <div className="diff aspect-[16/9] rounded-3xl">
                 <div className="diff-item-1">
@@ -347,7 +347,7 @@ const DashHero = () => {
               </div>
             </div>
             <button className='btn btn-secondary   btn-outline mt-10 mb-20'>Download</button>
-*/}
+
 
 
 

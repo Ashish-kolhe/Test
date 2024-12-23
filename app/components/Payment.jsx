@@ -5,7 +5,7 @@ import { useState } from 'react'
 import React from 'react'
  const PaymentPage = ()=>{
   
-    const AMOUNT = 66;
+    const AMOUNT = 49;
     const [isProcessing,setIsProcessing] = useState(false);
     const handelPayment = async ()=>{
         setIsProcessing(true);
