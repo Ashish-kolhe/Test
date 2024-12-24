@@ -41,9 +41,7 @@ const page = () => {
                 <li>&bull; Follow the installation instructions for your operating system.</li>
                 <li>&bull; Verify the installation:</li>
               </ul>
-              <div className="mockup-code my-4 ">
-                <pre data-prefix="1"><code>npm -v</code></pre>
-              </div>
+             
               <h1 className='text-2xl font-bold mt-20 mb-2'>
                 <span className='text-secondary'>Step 2:</span>  Installing VS Code
               </h1>
@@ -66,11 +64,7 @@ const page = () => {
               <ul className="my-2">
 
                 <li>&bull; Open your terminal and run: </li>
-                <div className="mockup-code my-4">
-                  <pre data-prefix=">"><code>npx create-next-app@latest appName</code></pre>
-                  <pre data-prefix=">"><code>cd appName</code></pre>
-                  <pre data-prefix=">"><code>npm run dev</code></pre>
-                </div>
+          
 
               </ul>
             </div>
