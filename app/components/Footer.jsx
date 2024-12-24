@@ -25,7 +25,7 @@ const Footer = () => {
 </div>
 </nav>
 <aside>
-  <p className='font-bold'>Made with ❤️ by <span className=' font-black'>Ashish</span> </p>
+  <p className='font-bold'>Created by <span className=' font-black'>Ashish</span> </p>
 <p className='font-bold'>Copyright © {new Date().getFullYear()} - All right reserved.</p>
 </aside>
 </footer>

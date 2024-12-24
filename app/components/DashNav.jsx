@@ -7,8 +7,8 @@ const DashNav = () => {
   return (
     <div>
         <div className="navbar bg-white">
-        <div className="flex items-center p-4 text-2xl font-black">
-  <img src="./FilledLogo.png" alt="Coddeit Logo" className="h-10 w-10 mr-2" />
+        <div className="flex items-center p-4 text-lg font-black">
+  <img src="./FilledLogo.png" alt="Coddeit Logo" className="h-8 w-8 mr-2" />
   
     Coddeit
   
