@@ -3,7 +3,8 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-    <footer className="footer footer-center bg-white text-black rounded p-10">
+     
+    <footer className="footer footer-center bg-white text-gray-950 rounded p-10">
 <nav className="grid grid-flow-col gap-4 font-bold">
 <a href='/about-us' className="link link-hover">About us</a>
 <a href='/contact-us' className="link link-hover">Contact us</a>
@@ -24,10 +25,12 @@ const Footer = () => {
   </a>
 </div>
 </nav>
+
 <aside>
   <p className='font-bold'>Created by <span className=' font-black'>Ashish</span> </p>
 <p className='font-bold'>Copyright © {new Date().getFullYear()} - All right reserved.</p>
 </aside>
+
 </footer>
 </div>
   )
