@@ -105,7 +105,7 @@ export default async function Home() {
             
 
               <div className="card bg-white rounded-box  h-3/5   text-neutral-700 p-10 text-left border-pink-500 border-2  indicator">
-              <span className="indicator-item indicator-center badge badge-secondary font-bold">Pocket money friendly!</span>
+              <span className="indicator-item indicator-center badge badge-secondary font-bold text-white">Pocket money friendly!</span>
                 <h1 className="text-7xl font-black mb-6 text-secondary"><span className="text-lg text-red-500 line-through">₹599</span><span className="text-green-500">₹49</span><span className="text-lg text-secondary">/Lifetime</span></h1>
                 <p className="font-bold"><span className="text-green-500">✔ </span>Full access. 📚</p>
 

@@ -47,7 +47,7 @@ import React from 'react'
 <button 
 onClick={handelPayment}
 disabled={isProcessing}
-className='btn btn-secondary  disabled:text-white disabled:bg-secondary'>
+className='btn btn-secondary text-white disabled:text-white disabled:bg-secondary'>
     {isProcessing ? "Processing.." : "Start Creating!"}
 </button>
         </div>

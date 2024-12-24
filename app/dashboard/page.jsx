@@ -21,21 +21,7 @@ const page = () => {
               <h1 className='font-black text-3xl text-center '>Intro Video 🎬 <br /><span className='text-sm font-medium'> "Start your journey here! Get an overview of what you’ll learn and why this course is perfect for you. 🚀" </span></h1>
             </div>
 
-            <div className='flex justify-center mb-20'>
-             <div className="video-container">
-                <iframe
-                  className="rounded-3xl shadow-xl shadow-pink-200"
-                  width="352"
-                  height="198"
-                  src="https://www.youtube.com/embed/z7AUxPVFf_M?si=yrFXj_Q5nKhlY-C5"
-                  title="YouTube Video"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
-
-            </div>
+         
             <div className='text-left'>
               <p className="py-6 text-xl font-extrabold">
                 <span className='text-secondary'>Overview:</span> What You’ll Learn 📘
