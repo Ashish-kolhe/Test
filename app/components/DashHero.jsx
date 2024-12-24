@@ -13,18 +13,7 @@ const DashHero = () => {
           <div className='flex justify-center  mb-8'>
 <div className="breadcrumbs text-sm font-semibold">
   <ul>
-    <li>
-      <a>
-     
-        Node.JS
-      </a>
-    </li>
-    <li>
-      <a>
-        
-         VS Code
-      </a>
-    </li>
+    
     <li>
       <span className="inline-flex items-center gap-2">
      
@@ -40,15 +29,10 @@ const DashHero = () => {
     <li>
       <a>
         
-        GitHub
-      </a>
-    </li>
-    <li>
-      <a>
         Netlify
-      
       </a>
     </li>
+ 
   </ul>
 </div>
 </div>
