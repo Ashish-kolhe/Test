@@ -6,7 +6,7 @@ const Standard = () => {
         <div className="hero bg-white min-h-screen">
   <div className="hero-content text-center">
     <div className="max-w-2xl">
-        <h1 className="text-2xl font-bold">Welcome <span className='text-secondary'>{getUser()}</span> <span className='flex justify-center'><img className='-mt-2'  src="./Wel.png" alt="" /></span>  </h1>
+        <h1 className="text-2xl font-bold">Welcome <span className='text-secondary'>{getUser()}</span>   </h1>
                     <div className='flex justify-center my-6'>
                       <h1 className='font-black text-3xl text-center '>Intro Video 🎬 <br /><span className='text-sm font-medium'> "Start your journey here! Get an overview of what you’ll learn and why this course is perfect for you. 🚀" </span></h1>
                     </div>
@@ -14,7 +14,7 @@ const Standard = () => {
                     <div className='flex justify-center mb-20'>
                      <div className="video-container">
                         <iframe
-                          className="rounded-3xl shadow-xl shadow-pink-200"
+                          className="rounded-3xl border-success border-4 border-t-secondary border-r-secondary"
                           width="352"
                           height="198"
                           src="https://www.youtube.com/embed/z7AUxPVFf_M?si=yrFXj_Q5nKhlY-C5"

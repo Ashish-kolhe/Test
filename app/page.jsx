@@ -98,9 +98,7 @@ I never thought I’d be able to build a website, but <span className="bg-yellow
           <h1 className="flex justify-center" id="pricing">
             <img className="w-52 mb-4" src="./sleep.gif" alt="" />
             </h1>
-            <p className="flex justify-end max-w-2xl -mt-4 pr-7 -mb-4">
-            <img className="w-8" src="./Dash.png" alt="" />
-            </p>
+            
             <h1 className="text-3xl font-bold mb-12">Bored of Tutorials<span className="text-4xl font-black text-secondary">?  Time to Build!</span>
             </h1>
             

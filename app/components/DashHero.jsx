@@ -86,7 +86,7 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
               <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-pink-200"
+                  className="rounded-3xl border-4  border-secondary"
                   width="352"
                   height="198"
                   src="https://www.youtube.com/embed/r6nYP1s6CHE?si=stfzmamsGNNhuFlm"
@@ -105,7 +105,7 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
               <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-pink-200"
+                  className="rounded-3xl border-4  border-secondary"
                   width="352"
                   height="198"
                   src="https://www.youtube.com/embed/-HBN30MQr7g?si=MZjLHQBuDqTMwAnX"
@@ -124,7 +124,7 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
               <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-pink-200"
+                  className="rounded-3xl border-4  border-secondary"
                   width="352"
                   height="198"
                   src="https://www.youtube.com/embed/lzkB1NRlDvU?si=bvQqHxBrnsDpLKUX"
@@ -143,7 +143,7 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
               <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-pink-200"
+                  className="rounded-3xl border-4  border-secondary"
                   width="352"
                   height="198"
                   src="https://www.youtube.com/embed/QCATU09WChU?si=HtnSq8MPNig_Q_9G"
@@ -162,7 +162,7 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
               <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-pink-200"
+                  className="rounded-3xl border-4  border-secondary"
                   width="352"
                   height="198"
                   src="https://www.youtube.com/embed/sGD2WQytWY8?si=b2l9C6TsZ4Pka0qg"
@@ -181,7 +181,7 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
               <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-pink-200"
+                  className="rounded-3xl border-4  border-secondary"
                   width="352"
                   height="198"
                   src="https://www.youtube.com/embed/EjBz-5FVB4Y?si=Ux2efMucn6TXMkTF"
@@ -200,7 +200,7 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
               <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-pink-200"
+                  className="rounded-3xl border-4  border-secondary"
                   width="352"
                   height="198"
                   src="https://www.youtube.com/embed/1SHewsWhlb0?si=PNGCVwk0FTKo6ArM"
@@ -219,7 +219,7 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
               <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-pink-200"
+                  className="rounded-3xl border-4  border-secondary"
                   width="352"
                   height="198"
                   src="https://www.youtube.com/embed/dU7qfvWn7cE?si=ON83I-QwJQRKZ45e"
@@ -238,7 +238,7 @@ const DashHero = () => {
             <div className='flex justify-center mb-20'>
               <div className="video-container">
                 <iframe
-                  className="rounded-3xl shadow-xl shadow-pink-200"
+                  className="rounded-3xl border-4  border-secondary"
                   width="352"
                   height="198"
                   src="https://www.youtube.com/embed/VxlR-a0PG2Q?si=_g50wpEFtFkqb3kS"
