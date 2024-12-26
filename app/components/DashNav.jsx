@@ -36,9 +36,9 @@ const DashNav = () => {
     </button>
   </div>
   <ul tabIndex={0} className="dropdown-content menu  bg-white rounded-box z-[1] w-52 p-2 font-semibold">
-    <li className="text-success"><a href='#standard'>Standard</a></li>
-    <li className="text-secondary"><a href='#framework'>Framework</a></li>
-    <li className="text-info"><a href='#templates'>Templates</a></li>
+    <li ><a href='#standard'>Standard</a></li>
+    <li ><a href='#framework'>Framework</a></li>
+    <li ><a href='#templates'>Templates</a></li>
     <div className="divider "></div>
 
     <div className='flex justify-center'><SignOut/></div>

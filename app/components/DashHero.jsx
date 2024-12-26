@@ -286,11 +286,13 @@ const DashHero = () => {
               <div className="diff aspect-[16/9] rounded-3xl max-w-md">
                 <div className="diff-item-1">
                   <div className="bg-info text-white grid place-content-center text-5xl font-black">
-                    LOGIN<br /><span className='text-xl'>Template</span>
+                    PLAYSTORE<br /><span className='text-xl'>ClONE</span>
                   </div>
                 </div>
                 <div className="diff-item-2">
-                  <div className="bg-white grid place-content-center text-5xl font-black ">LOGIN<br /><span className='text-xl'>Template</span> </div>
+                  <div className="bg-white grid place-content-center text-5xl font-black ">
+                  <img src="../Gamestore.jpg" alt="" />
+                  </div>
                 </div>
                 <div className="diff-resizer"></div>
               </div>
