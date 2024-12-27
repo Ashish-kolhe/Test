@@ -39,7 +39,9 @@ const Navbar = () => {
     <li><a href='#about'>About</a></li>
     <div className="divider "></div>
 
-    <div className='flex justify-center'><PaymentPage/></div>
+    <div className='flex justify-center'><PaymentPage/>
+    </div>
+    <h1 className='flex justify-center text-xs text-gray-800 my-3'>Don't OverThink Just GO for it!</h1>
   </ul>
 </div>
   </div>

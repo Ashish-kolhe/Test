@@ -1,11 +1,14 @@
 import React from 'react'
 import getUser from '@/userState'
+
 const Standard = () => {
+
   return (
     <div>
         <div className="hero bg-white min-h-screen">
   <div className="hero-content text-center">
     <div className="max-w-2xl">
+
         <h1 className="text-2xl font-bold">Welcome <span className='text-secondary'>{getUser()}</span>   </h1>
                     <div className='flex justify-center my-6'>
                       <h1 className='font-black text-3xl text-center '>Intro Video 🎬 <br /><span className='text-sm font-medium'> "Start your journey here! Get an overview of what you’ll learn and why this course is perfect for you. 🚀" </span></h1>
@@ -14,7 +17,7 @@ const Standard = () => {
                     <div className='flex justify-center mb-20'>
                      <div className="video-container">
                         <iframe
-                          className="rounded-3xl border-success border-4 border-t-secondary border-r-secondary"
+                          className="rounded-3xl border-info border-4 "
                           width="352"
                           height="198"
                           src="https://www.youtube.com/embed/z7AUxPVFf_M?si=yrFXj_Q5nKhlY-C5"
@@ -28,8 +31,10 @@ const Standard = () => {
                     </div>
       <h1 className="text-2xl font-black">Choose Your Approach</h1>
    <div className='flex justify-center gap-10 p-6'>
-<button className='btn btn-success text-white '><span className='px-2'>Standard</span> </button>
-<button className='btn btn-secondary text-white'>Framework</button>
+   <a href="#standard">
+<button className='btn btn-success text-white '><span className='px-2'>Standard</span> </button></a> 
+ <a href="#framework">
+<button className='btn btn-secondary text-white'>Framework</button></a>
    </div>
       <p className='font-semibold leading-relaxed'>The <span className='text-success'>Standard</span> approach teaches the essentials of HTML, CSS, and JavaScript to build your first site. The <span className='text-secondary'>Framework</span> approach with Next.js and DaisyUI helps you build faster with practical tools.</p>
       <img className="w-20" src="./arrow.png" alt="" id='standard'/>

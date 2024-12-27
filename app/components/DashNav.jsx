@@ -1,7 +1,7 @@
 
 import SignOut from "./sign-out";
 import getUser from "@/userState";
-
+import getMail from "@/userMail";
 const DashNav = () => {
 
   return (
@@ -35,7 +35,11 @@ const DashNav = () => {
       </svg>
     </button>
   </div>
-  <ul tabIndex={0} className="dropdown-content menu  bg-white rounded-box z-[1] w-52 p-2 font-semibold">
+  <ul tabIndex={0} className="dropdown-content menu  bg-white rounded-box z-[1] w-52 p-2 font-semibold text-gray-900 ">
+  <h1 className='flex justify-center '><span className="loading loading-spinner text-info"></span></h1>
+  <div className='flex justify-center text-secondary mt-1'>{getUser()}</div>
+  <div className='flex justify-center text-gray-900 text-xs mt-1'>{getMail()}</div>
+  <div className="divider mb-6"></div>
     <li ><a href='#standard'>Standard</a></li>
     <li ><a href='#framework'>Framework</a></li>
     <li ><a href='#templates'>Templates</a></li>
