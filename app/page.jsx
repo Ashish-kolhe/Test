@@ -33,7 +33,7 @@ export default async function Home() {
             <PaymentPage />
 
             <div className="flex justify-center mt-4">
-              <div className="flex overflow-hidden  -space-x-4 rtl:space-x-reverse  p-4">
+              <div className="flex overflow-hidden  -space-x-5 rtl:space-x-reverse  p-4">
                 <div className="avatar  ">
                   <div className="w-10 rounded-full  border-white border-4">
                     <img src="./Thor.jpg" />
@@ -49,6 +49,26 @@ export default async function Home() {
                     <img src="./a.jpg" />
                   </div>
                 </div>
+                <div className="avatar">
+                  <div className="w-10 rounded-full border-white border-4">
+                    <img src="./Thor.jpg" />
+                  </div>
+                </div>
+                <div className="avatar">
+                  <div className="w-10 rounded-full border-white border-4">
+                    <img src="./a.jpg" />
+                  </div>
+                </div>
+                <div className="avatar">
+                  <div className="w-10 rounded-full border-white border-4">
+                    <img src="./profile3.jfif" />
+                  </div>
+                </div>
+                <div className="avatar">
+                  <div className="w-10 rounded-full border-white border-4">
+                    <img src="./user.png" />
+                  </div>
+                </div>
                 <div className="avatar placeholder" >
                   <div className="bg-secondary text-white w-12 rounded-full border-white border-4">
                     <span className="font-bold">+69</span>
@@ -57,7 +77,7 @@ export default async function Home() {
               </div>
             </div>
             <p className="pt-2 pb-10 text-gray-700 italic">
-              <span className="text-black font-bold">72</span> Students Built Their First Website!
+              <span className="text-black font-bold">76</span> Students Built Their First Website!
             </p>
             <div >
               <kbd className="kbd mx-2 btn btn-outline btn-secondary">Coddeit</kbd>
@@ -71,7 +91,7 @@ export default async function Home() {
         </div>
       </div>
        
-       <div className="hero mt-20 text-center px-20 bg-white p-10" >
+       <div className="hero mt-20 text-center px-20 bg-white " >
       <div className="max-w-md ">
       <div className="rating rating-sm mb-4 ">
   <input type="radio" name="rating-4" className="mask mask-star-2 bg-amber-500" />
@@ -156,7 +176,7 @@ I never thought I’d be able to build a website, but <span className="bg-yellow
       src="./Ashish.png"
       className="max-w-56 " />
     <div>
-      <h1 className="text-5xl font-black"><span className="text-black"><span className="text-secondary">"</span>  <span className="text-red-600 italic">Break</span> the <span className="text-amber-500 italic underline-offset-1">Learning</span> Barrier <span className="text-secondary">"</span></span></h1>
+      <h1 className="text-5xl font-black"><span className="text-black"><span className="text-secondary">"</span><span className="text-red-600 italic">Break</span> the <span className="text-amber-500 italic underline-offset-1">Learning</span> Barrier<span className="text-secondary">"</span></span></h1>
       <p className="py-6 font-medium">
       "I spent <span className="text-red-500 italic">years</span> learning coding from books and tutorials but never built anything real. Then I realized—only <span className="text-red-500 italic">20% </span> of what I learned was needed to start earning through coding. Now, I focus on building and creating, and I want to help you do the same."
       </p>
